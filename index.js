@@ -29,7 +29,7 @@ function MainContent() {
     return (<div><p>My first day learning React, ReactDOM and Babel</p>
     <h1>my header man</h1></div>)
 }
-ReactDOM.render(<MainContent />, document.getElementById("root")) */
+ReactDOM.render(<MainContent />, document.getElementById("root"))
 
 const PageXar = ()  => {
     return (<div>
@@ -45,4 +45,20 @@ const PageXar = ()  => {
                 </div>);
 };
 
-ReactDOM.render(<PageXar />,document.querySelector("#root"))
+ReactDOM.render(<PageXar />,document.querySelector("#root")) */
+
+const MotiFex = () => {
+    return (<div>
+            <header> <nav><img src="./downloadbing.jpg" width="60px"/> </nav> </header>
+                <h1>my motivations for learning React</h1>
+                    <ol>
+                        <li> Seems exciting </li>
+                        <li> Practical </li>
+                        <li> Declarative </li>
+                        <li>regularly maintained by fb</li>
+                    </ol>
+                    <footer>@Austin Muriuki development. All rights reserved</footer>
+             </div>);
+};
+
+ReactDOM.render(<MotiFex />,document.querySelector("#root"))
